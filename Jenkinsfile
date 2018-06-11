@@ -20,7 +20,7 @@ podTemplate(label: label, containers: [
       sh 'touch miratuquebien'
     }
     
-    container ('nodeapp') {
+    container ('appnode') {
       sh 'ls -la'
       sh 'node --version'
     }
